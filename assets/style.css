@@ -1,0 +1,107 @@
+body { 
+    font-family: 'Open Sans', 'icones', sans-serif;
+    background-image: url(../assets/img/Maratona\ Explorer\ \ -\ 1920x1080.png);
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    width: 400px;
+    margin:auto;
+    margin-top: 10px;
+    padding: 10px;
+    align-items: center;
+   
+
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    padding: 5px;
+    color: white;
+}
+
+.paragrafo {
+    padding: 10px;
+    color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 400px;
+}
+
+.avatar {
+    width: 100%;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: rgb(42, 170, 255) solid 4px;
+    padding: 4px;
+}
+
+.lista_estilo {
+    margin: 20px;
+}
+
+.conteudo_lista {
+    height: 30px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 10px;
+    padding-top: 10px;
+    
+    
+}
+
+.sites {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px;
+    color: white;
+    
+}
+
+.footer {
+    height: 36px;
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color:white;
+    margin-top: 150px;
+   
+}
+
+ /* Session Hover style's */
+
+
+.titulo:hover {
+    transition: all 0.5s;
+    background-color: rgb(42, 170, 255);
+    transform: scale(1.1);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.conteudo_lista:hover {
+    background-color: rgb(42, 170, 255);
+    transform: scale(1.1);
+    transition: all 0.5s;
+    
+}
+
+.paragrafo:hover{
+    background-color: rgb(42, 170, 255);
+    transform: scale(1.1);
+    transition: all 0.5s;
+
+}
